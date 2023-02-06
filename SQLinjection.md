@@ -26,7 +26,7 @@ $stmt->execute();
 
 php  
 Copy code  
-$user = new User; 
+$user = new User;  
 $user->username = $username;  
 $user->email = $email;  
 $user->save();  
