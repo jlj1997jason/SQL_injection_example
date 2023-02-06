@@ -27,18 +27,18 @@ $stmt->execute();
 php  
 Copy code  
 $user = new User; 
-$user->username = $username; 
-$user->email = $email; 
-$user->save(); 
+$user->username = $username;  
+$user->email = $email;  
+$user->save();  
 
 
 4.使用 Input Sanitization 函數: 將輸入數據的驗證與過濾與代碼中分開。
 
 
-php 
-Copy code  
-$username = sanitize_input($_POST['username']); 
-$email = sanitize_input($_POST['email']); 
+php  
+Copy code   
+$username = sanitize_input($_POST['username']);  
+$email = sanitize_input($_POST['email']);  
 
 
 
