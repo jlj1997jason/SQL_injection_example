@@ -45,9 +45,9 @@ $email = sanitize_input($_POST['email']);
 $conn->query("INSERT INTO users (username, email) VALUES ('$username', '$email')"); 
 
 function sanitize_input($data) {  
-  $data = trim($data); 
-  $data = stripslashes($data); 
-  $data = htmlspecialchars($data); 
+  $data = trim($data);  
+  $data = stripslashes($data);  
+  $data = htmlspecialchars($data);  
   return $data;  
 } 
 
