@@ -32,4 +32,4 @@ function sanitize_input($data) {
   $data = htmlspecialchars($data);
   return $data;
 }
-5.使用 LIMIT 子句限制輸出: 限制从数据库中返回的数据行数，以防止被恶意代码利用。
+5.使用 LIMIT 子句限制輸出: 限制從數據庫中返回的數據行數，以防止被惡意code利用。
